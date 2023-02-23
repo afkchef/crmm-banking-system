@@ -1,4 +1,4 @@
-FROM python:3.9-slim-buster
+FROM python:3.9-slim
 
 WORKDIR /crmm-banking-system
 
@@ -8,6 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 80
+EXPOSE 5000
 
-CMD [ "python", "app.py" ]
+CMD [ "python", "app.py"]
