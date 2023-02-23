@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: crmm-banking-container
+    command: python app.py
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/code
