@@ -4,7 +4,7 @@ WORKDIR /crmm-banking-system
 
 COPY requirements.txt .
 
-RUN pip install -r requiements.txt
+RUN pip install -r requirements.txt
 
 COPY . .
 
