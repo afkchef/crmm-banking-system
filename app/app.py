@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 #in-memory data, this is mimicking a database
 accounts = {
-    '1234':{'balance': 1000},
+    '1234':{'balance': 2000},
     '5678':{'balance': 500},
 }
 
